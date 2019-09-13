@@ -4,31 +4,23 @@
            <title>Webslesson Tutorial | Convert Data from Mysql to JSON Format using PHP</title>  
       </head>  
       <body>  
-           <?php   
-          // Create connection
-$conn = mysqli_connect($databases.000webhost.com, $id10869223_admin, $tihbak5393, $id10869223_newdata);
-// Check connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
+         <?php
+$host = "databases.000webhost.com";
+$db = "id10869223_admin";
+$user = "id10869223_newdata"; 
+$pass = "tihbak5393";  
+$conn = new mysqli($host,$user,$pass,$db); 
+$rows = array();
+
+$sql = "SELECT * FROM rub";
+$result = $conn->query($sql) or die("cannot write");
+while($row = $result->fetch_assoc()){
+    $rows[] = $row;
 }
 
-$sql    = "SELECT * FROM rub";
-$result = mysqli_query($conn, $sql);
+echo "<pre>";
+print json_encode(array('serverres'=>$rows));
+echo "</pre>";
 
-if (mysqli_num_rows($result) > 0) {
-    $rows = array();
-    while ($row = mysqli_fetch_array($result)) {
-
-        $rows[] = $row;
-    }
-
-    echo json_encode($rows);
-} else {
-    echo "no results found";
-}
-
-mysqli_close($conn);
-
-?>
       </body>  
  </html>  
