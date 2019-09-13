@@ -10,11 +10,12 @@
            $result = mysqli_query($connect, $sql);  
            $json_array = array();  
             
-                $json_array[] = mysqli_fetch_assoc($result);  
+                while($row = mysqli_fetch_assoc($result))  
+           {  
+                $json_array[] = $row;  
+           }  
            
-           /*echo '<pre>';  
-           print_r(json_encode($json_array));  
-           echo '</pre>';*/  
+          
            echo json_encode($json_array);  
            ?>  
       </body>  
