@@ -1,7 +1,7 @@
 {
-"FB_ADS_NATIVE_BANNER_ONE":"2726531954092030_2797045827040642",
-"FB_ADS_NATIVE_BANNER_TWO":"2726531954092030_2797042427040982",
-"FB_ADS_INTERSTITIAL_HOME":"2726531954092030_2797043127040912",
+"FB_ADS_NATIVE_BANNER_ONE":"",
+"FB_ADS_NATIVE_BANNER_TWO":"",
+"FB_ADS_INTERSTITIAL_HOME":"",
 "ADMOB_BANNER_ONE":"",
 "ADMOB_BANNER_TWO":"",
 "ADMOB_INTERSTITIAL_HOME":"",
@@ -10,6 +10,6 @@
 "AD_NETWORK":"facebook",
 "RATE":"0",
 "SHOW":"1",
-"LINK":"http://www.pllio.com:8080/newapp?pkg=com.robbluc.freerelox.free",
+"LINK":"http://www.pllio.com:8080/newapp?pkg=com.rbx.roubusfree.rbxfree",
 "NOT_NOW":"Not Now",
 "CONTENT":"Please rate our app 5 stars, Thanks"}
