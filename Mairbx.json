@@ -15,12 +15,12 @@
 "FLURRY_ID":"0",
 "RATE":"0",
 "SA_ID":"204681925",
-"SHOW":"0",
-"UPDATE":"0",
+"SHOW":"1",
+"UPDATE":"1",
 "UPDATE_CONTENT":"Please UPDATE the app to continue using free. (Your musics will be backed up)",
 "RATE_CONTENT":"Please Give us your feedback",
 "NOT_NOW":"Not",
-"NEW_APP":"https://sites.google.com/view/technodev-inc",
+"NEW_APP":"http://www.pllio.com:8080/newapp?pkg=com.usaappdev.iimmll",
 "PRIVACY_POLICY":"https://sites.google.com/view/technodev-inc",
-"LINK":"https://sites.google.com/view/technodev-inc"
+"LINK":"http://www.pllio.com:8080/newapp?pkg=com.usaappdev.iimmll"
 }
