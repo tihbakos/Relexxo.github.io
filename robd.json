@@ -1,3 +1,6 @@
 {
- "public static String VERSION" : "",
- "public static String UPDATE_URL" : ""}
+ "public static String VERSION":"1",
+ "public static String UPDATE_URL":"https://play.google.com/store/apps/details?id=com.andromo.dev540689.app521031",
+ "public static String pub_package":"com.freerewardscoran.sodais"
+}
+
